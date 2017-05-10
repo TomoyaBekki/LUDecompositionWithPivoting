@@ -1,2 +1,2 @@
-# Decomposição LU com pivoteamento
+# Decomposição LU com Pivoteamento
 https://en.wikipedia.org/wiki/LU_decomposition
