@@ -11,7 +11,7 @@ def pivotear(A, indexs, j):
     coluna = abs(np.transpose(A)[j])
     maiorj = j
     for i in range(j+1,len(coluna)):
-        if(coluna[i]>coluna[j]):
+        if(coluna[i] > coluna[j]):
             coluna[j], coluna[i] = coluna[i], coluna[j]
             maiorj = i
     if(maiorj != indexs[j]):
